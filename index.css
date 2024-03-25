@@ -1,0 +1,140 @@
+body{
+  
+}
+
+h1, h2, h3, p{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.small-element-border{
+  border-radius: 7px;
+}
+
+.container{
+
+  margin: 20px auto;
+  width: 65rem;
+  border: 5px solid white;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px #999;
+}
+
+/* top section */
+.top-section{
+  padding: 150px;
+  background-image: url("./assets/riften-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.top-section h1{
+  background: #447A9C;
+  padding: 5px 0;
+  width: 15rem;
+  margin: 0 auto;
+  color: white;
+}
+
+.top-section h2{
+  padding: 5px 0;
+  color: white;
+  background: #1D3657;
+  margin: 10px auto;
+  width: 40rem;
+}
+
+/* top section End */
+
+/* mid section */
+
+.mid-section h2{
+  padding: 2rem 0 2rem 0;
+}
+
+.activity-cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.activity-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+}
+
+.activity-card img{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#guard{
+
+}
+
+.summary{
+  margin: 0 auto;
+  padding: 4rem 11rem 4rem 11rem;
+  width: 42rem;
+  font-size: 18px; /* Font size */
+  line-height: 1.6; /* Line height */
+  letter-spacing: 1px; /* Letter spacing */
+}
+
+.text-left{
+  text-align: left;
+}
+
+.summary h2{
+  padding:0 2rem;
+}
+
+
+/* mid section End */
+
+/* bottom section */
+
+
+.guide-card{
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  display: flex;
+  padding: 1rem;
+  width: 40rem;
+  background: #A6DBDB;
+  border-bottom: 5px solid #1D3556;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.guide-card img{
+  width: 15rem;
+}
+
+.guide-details{
+  padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bottom section End */
